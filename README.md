@@ -9,6 +9,11 @@ This will help ensure all terraform modules follow a consistent format and struc
 * output.tf
 * main.tf
 
+#### Module Usage
+When consuming a Terraform module the source should always be versioned.
+Where possible all code should be locked to a version to prevent issues in future.
+A conscious effort should be made to bring these versions up-to date on a regular basis.
+
 #### Resource Tagging
 If a resource accepts tag values these must be used.
 Please reference the tagging policy for the revelant cloud to ensure you are compliant.
