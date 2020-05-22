@@ -1,5 +1,5 @@
 # Best Practice for Terraform Module Creation
-The aim of this document is to provide a best-pracitce framework for creating Terraform Modules.
+The aim of this document is to provide a best-practice framework for creating Terraform Modules.
 This will help ensure all terraform modules follow a consistent format and structure.
 
 #### Repository Structure
@@ -16,10 +16,10 @@ A conscious effort should be made to bring these versions up-to date on a regula
 
 #### Resource Tagging
 If a resource accepts tag values these must be used.
-Please reference the tagging policy for the revelant cloud to ensure you are compliant.
+Please reference the tagging policy for the relevant cloud to ensure you are compliant.
 
 #### Comments and Readability
-All comments should used a single hash, space followed by the comment
+All comments should use a single hash, space followed by the comment
 Example Usage:<br />
 > \# Example comment<br />
 
@@ -37,7 +37,7 @@ Example Usage:<br />
 
 #### Input Variables
 All input variables must have description and type.
-The strucutre for inputs is:
+The structure for inputs is:
  - Description
  - Type
  - Default (if defined)
